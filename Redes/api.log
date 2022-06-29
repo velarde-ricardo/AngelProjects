@@ -1,0 +1,259 @@
+
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195103415",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/hosts/84F14762-F952-0ed3-0000-090195103415"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "ipType": "V_4",
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "NetworkAddress",
+        "timestamp": 0
+    },
+    "name": "ASF1",
+    "overridable": false,
+    "type": "Host",
+    "value": "10.10.10.11"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195103433",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/84F14762-F952-0ed3-0000-090195103433"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "ipType": "V_4",
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "NetworkAddress",
+        "timestamp": 0
+    },
+    "name": "ASF2",
+    "overridable": false,
+    "type": "Network",
+    "value": "10.10.11.0/24"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195103535",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/hosts/84F14762-F952-0ed3-0000-090195103535"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "ipType": "V_4",
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "NetworkAddress",
+        "timestamp": 0
+    },
+    "name": "ASF1",
+    "overridable": false,
+    "type": "Host",
+    "value": "10.10.10.11"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195103553",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/84F14762-F952-0ed3-0000-090195103553"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "ipType": "V_4",
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "NetworkAddress",
+        "timestamp": 0
+    },
+    "name": "ASF2",
+    "overridable": false,
+    "type": "Network",
+    "value": "10.10.11.0/24"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195107351",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/hosts/84F14762-F952-0ed3-0000-090195107351"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "ipType": "V_4",
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "NetworkAddress",
+        "timestamp": 0
+    },
+    "name": "ASF1",
+    "overridable": false,
+    "type": "Host",
+    "value": "10.10.10.11"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195107369",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkaddresses",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks/84F14762-F952-0ed3-0000-090195107369"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "ipType": "V_4",
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "NetworkAddress",
+        "timestamp": 0
+    },
+    "name": "ASF2",
+    "overridable": false,
+    "type": "Network",
+    "value": "10.10.11.0/24"
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name ASF1 already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name ASF1 already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name ASF1 already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name ASF1 already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "Access token invalid."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "Access token not found"
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "Access token not found"
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "Access token invalid."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "Access token invalid."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}

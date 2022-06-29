@@ -1,0 +1,1510 @@
+
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195075271",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195075271"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "port1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195075289",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195075289"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "port2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195075878",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195075878"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "port1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195075896",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195075896"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "port2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195075955",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195075955"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "port1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195075973",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195075973"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "port2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076027",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076027"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076045",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076045"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076085",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076085"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076103",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076103"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076143",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076143"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076161",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076161"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076201",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076201"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076219",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076219"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076259",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076259"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076277",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076277"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076317",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076317"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076335",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076335"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name zzxx1 already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name zzxx2 already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076393",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076393"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076411",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076411"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076454",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076454"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076472",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076472"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name zzxx1 already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name zzxx2 already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076794",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076794"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195076812",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195076812"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195103573",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195103573"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195103591",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195103591"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195103631",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195103631"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195103649",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195103649"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195103692",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195103692"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx1",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195103710",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195103710"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "zzxx2",
+    "overridable": false,
+    "port": "9898",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 53_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 53_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 3389_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195106798",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195106798"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "3389_UDP",
+    "overridable": false,
+    "port": "389",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 80_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 80_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 443_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 443_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 1494_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 1494_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 2598_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 2598_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195106880",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195106880"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "16500-16509_TCP",
+    "overridable": false,
+    "port": "16500-16509",
+    "protocol": "TCP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "id": "84F14762-F952-0ed3-0000-090195106898",
+    "links": {
+        "parent": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/ports",
+        "self": "https://10.156.2.135/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/protocolportobjects/84F14762-F952-0ed3-0000-090195106898"
+    },
+    "metadata": {
+        "domain": {
+            "id": "e276abec-e0f2-11e3-8169-6d9ed49b625f",
+            "name": "Global",
+            "type": "Domain"
+        },
+        "lastUser": {
+            "name": "apis"
+        },
+        "parentType": "Port",
+        "timestamp": 0
+    },
+    "name": "16500-16509_UDP",
+    "overridable": false,
+    "port": "16500-16509",
+    "protocol": "UDP",
+    "type": "ProtocolPortObject"
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 53_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 53_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 3389_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 3389_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 80_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 80_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 443_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 443_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 1494_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 1494_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 2598_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 2598_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 16500-16509_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 16500-16509_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 53_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 53_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 3389_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 3389_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 80_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 80_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 443_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 443_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 1494_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 1494_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 2598_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 2598_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 16500-16509_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 16500-16509_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 53_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 53_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 3389_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 3389_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 80_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 80_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 443_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 443_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 1494_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 1494_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 2598_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 2598_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 16500-16509_TCP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
+---------------------------------------------------------------------
+{
+    "error": {
+        "category": "FRAMEWORK",
+        "messages": [
+            {
+                "description": "The object name 16500-16509_UDP already exists. Enter a new name."
+            }
+        ],
+        "severity": "ERROR"
+    }
+}
