@@ -1,0 +1,110 @@
+import csv
+import json
+import sys
+import requests
+import os
+
+import urllib3
+
+server = "https://10.156.2.135"
+username = "apis"
+password = "0v3rcl0ck3r5FMC@"
+headers = {'Content-Type': 'application/json'}
+api_auth_path = "/api/fmc_platform/v1/auth/generatetoken"
+auth_url = server + api_auth_path
+r = None
+
+
+def yes_or_no(question):
+    answer = input(question + "(y/n): ").lower().strip()
+    print("")
+    while not (answer == "y" or answer == "yes" or
+               answer == "n" or answer == "no"):
+        print("Input yes or no")
+        answer = input(question + "(y/n):").lower().strip()
+        print("")
+    if answer[0] == "y":
+        return True
+    else:
+        return False
+
+
+csvfile = open("csvfile1.csv")
+objects = csv.DictReader(csvfile)
+
+print('\nThis script will attempt to create objects via an API call')
+if yes_or_no('\nDo you want to continue?'):
+    ()
+else:
+    quit()
+
+try:
+    print('\n\nAttempting connection to FMC...')
+    urllib3.disable_warnings()
+    # session = requests.Session()
+    # session.auth = (username,password)
+    # session.request(
+
+    r = requests.post(auth_url, headers=headers,
+                      auth=requests.auth.HTTPBasicAuth(username, password), verify=False)
+    auth_headers = r.headers
+    auth_token = auth_headers.get('X-auth-access-token', default=None)
+    if auth_token is None:
+        print("auth_token not found. Exiting...")
+        sys.exit()
+except Exception as err:
+    print("Error in generating auth token --> " + str(err))
+    sys.exit()
+
+headers['X-auth-access-token'] = auth_token
+print('...Connected! Auth token collected successfully (' + auth_token + ')\n')
+api_path = "/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/hosts"
+api_path = "/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/network"
+
+
+for listObject in objects:
+    post_data = {
+        "name": listObject["name"],
+        "type": listObject["type"],
+        "value": listObject["value"],
+        "description": listObject["description"],
+    }
+
+    if listObject["type"] ==
+    url = server + api_path
+    if url[-1] == '/':
+        url = url[:-1]
+
+    print('\n*************************************')
+    print('Creating object: ' + listObject["name"])
+
+    try:
+        r = requests.post(url, data=json.dumps(post_data), headers=headers, verify=False)
+        status_code = r.status_code
+        resp = r.text
+        log = open('api.log', 'a')
+        print(" Status code: " + str(status_code))
+        json_resp = json.loads(resp)
+        log.write('\n---------------------------------------------------------------------\n')
+        log.write(json.dumps(json_resp, sort_keys=True, indent=4, separators=(',', ': ')))
+
+        if status_code == 201 or status_code == 202:
+            print(" SUCCESS ")
+        elif status_code == 400:
+            print(" Message: " + resp + '\n')
+        else:
+            r.raise_for_status()
+            print(" Message: " + resp + '\n')
+
+    except requests.exceptions.HTTPError as err:
+        print("Error in connection --> " + str(err))
+    finally:
+        if r:
+            r.close()
+
+api_path = "/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networkgroups"
+
+
+
+r = requests.post(url, data=json.dumps(post_data), headers=headers, verify=False)
+print('\nLog file "api.log" appended\n')
