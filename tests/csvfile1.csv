@@ -1,3 +1,4 @@
 name,value,type,description
 ASF1,10.10.10.11,host,Host11
 ASF2,10.10.11.0/24,network,net11
+ASF3,10.10.12.1,host,host12

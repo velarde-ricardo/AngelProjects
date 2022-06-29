@@ -41,9 +41,10 @@ try:
     print('\n\nAttempting connection to FMC...')
     requests.packages.urllib3.disable_warnings()
     ## temp
-    auth_url = "https://fmcrestapisandbox.cisco.com/api/fmc_platform/v1/auth/generatetoken"
-    # response = requests.post(auth_url, headers=headers, auth=requests.auth.HTTPBasicAuth(username, password),verify=False)
-    response = requests.post(auth_url, headers=headers, auth=requests.auth.HTTPBasicAuth("elgatoska9", "2nfGeBmH"),verify=False)
+    # auth_url = server + api_auth_path
+
+    response = requests.post(auth_url, headers=headers, auth=requests.auth.HTTPBasicAuth(username, password),verify=False)
+    #response = requests.post(auth_url, headers=headers, auth=requests.auth.HTTPBasicAuth("elgatoska9", "2nfGeBmH"),verify=False)
 
     auth_headers = response.headers
     print(auth_headers)
@@ -69,7 +70,7 @@ api_path_host = "/api/fmc_config/v1/domain/" + DOMAIN_UUID + "/object/hosts"
 api_path_network = "/api/fmc_config/v1/domain/" + DOMAIN_UUID + "/object/networks"
 
 ###############################
-url = "https://fmcrestapisandbox.cisco.com/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks"
+url = server + "/api/fmc_config/v1/domain/"+DOMAIN_UUID+"/object/networks"
 # url = server +
 # try:
 obj = {"name": "1.191.183.0_24"}
@@ -78,11 +79,11 @@ header = {"X-auth-access-token": auth_token}
 requests.packages.urllib3.disable_warnings()
 response = requests.get(url, headers=header, verify=False)
 json_resp = response.json()
-
+# print(json_resp)
 networkObjectList = json_resp['items']
-objetFoundList = list(filter(lambda item: item['name'] == obj['name'], networkObjectList))
-if objetFoundList:
-    print(objetFoundList[0]['id'])
+# objetFoundList = list(filter(lambda item: item['name'] == obj['name'], networkObjectList))
+# if objetFoundList:
+#     print(objetFoundList[0]['id'])
 
 
 #     status_code = response.status_code
@@ -137,10 +138,10 @@ for obj in objects:
             print(codigo["id"])
         elif status_code == 400:
 
-            objetFoundList = list(filter(lambda item: item['name'] == obj['name'], networkObjectList))
-            if list:
-                listadecodigos.append(list[0]['id'])
-                print(list[0]['id'])
+            objectFoundList = list(filter(lambda item: item['name'] == obj['name'], networkObjectList))
+            if objectFoundList:
+                listadecodigos.append(objectFoundList[0]['id'])
+                print(objectFoundList[0]['id'])
 
             # fmc = FMC(hostname='10.156.2.135', username='apis', password='0v3rcl0ck3r5FMC@', domain='Global')
             # if obj["type"].lower().strip() == "host":
