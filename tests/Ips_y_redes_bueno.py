@@ -2,7 +2,7 @@ import csv
 import json
 import sys
 from json import JSONEncoder
-from fireREST import FMC
+# from fireREST import FMC
 
 import requests
 import os
@@ -10,29 +10,18 @@ import os
 # fmc = FMC(hostname='10.156.2.135', username='apis', password='0v3rcl0ck3r5FMC@', domain='Global')
 # print(json.loads(fmc.conn.cred))
 # fmc = FMC(hostname='10.156.2.135',)
-# fmc.
+config_info = ""
+with open('config_info.json', 'r') as f:
+    config_info = json.load(f)
 
-# url = "https://fmcrestapisandbox.cisco.com/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/object/networks"
-#
-# # try:
-# obj = {"test_data": "network"}
-# url += "?limit={}".format(1000)
-# header = {"X-auth-access-token": "99525b5d-f620-4a60-80a7-af04b34144ce"}
-# requests.packages.urllib3.disable_warnings()
-# response = requests.get(url, headers=header, verify=False)
-# json_resp = response.json()
-#
-# networkObjectList = json_resp['items']
-# if networkObjectList:
-#     print(networkObjectList[0]['id'])
+SERVER = config_info['server']
+USERNAME = config_info['username']
+PASSWORD = config_info['password']
+PAGINATION_LIMIT = 1000
 
-
-server = "https://10.156.2.135"
-username = "apis"
-password = "0v3rcl0ck3r5FMC@"
 headers = {'Content-Type': 'application/json'}
 api_auth_path = "/api/fmc_platform/v1/auth/generatetoken"
-auth_url = server + api_auth_path
+auth_url = SERVER + api_auth_path
 
 csvfile = open("csvfile1.csv")
 objects = csv.DictReader(csvfile)
@@ -40,11 +29,9 @@ objects = csv.DictReader(csvfile)
 try:
     print('\n\nAttempting connection to FMC...')
     requests.packages.urllib3.disable_warnings()
-    ## temp
-    # auth_url = server + api_auth_path
 
-    response = requests.post(auth_url, headers=headers, auth=requests.auth.HTTPBasicAuth(username, password),verify=False)
-    #response = requests.post(auth_url, headers=headers, auth=requests.auth.HTTPBasicAuth("elgatoska9", "2nfGeBmH"),verify=False)
+    response = requests.post(auth_url, headers=headers, auth=requests.auth.HTTPBasicAuth(USERNAME, PASSWORD),
+                             verify=False)
 
     auth_headers = response.headers
     print(auth_headers)
@@ -54,7 +41,7 @@ try:
     auth_session = {'X-auth-access-token': auth_token,
                     'X-auth-refresh-token': auth_refresh,
                     'DOMAINS': auth_domains, }
-    print(auth_session)
+
     DOMAIN_UUID = response.headers["DOMAIN_UUID"]
 
     if auth_token is None:
@@ -64,32 +51,39 @@ except Exception as err:
     print("Error in generating auth token --> " + str(err))
     sys.exit()
 
-headers['X-auth-access-token'] = auth_token
-print('...Connected! Auth token collected successfully (' + auth_token + ')\n')
 api_path_host = "/api/fmc_config/v1/domain/" + DOMAIN_UUID + "/object/hosts"
 api_path_network = "/api/fmc_config/v1/domain/" + DOMAIN_UUID + "/object/networks"
 
+headers['X-auth-access-token'] = auth_token
+print('...Connected! Auth token collected successfully (' + auth_token + ')\n')
+
+
 ###############################
-url = server + "/api/fmc_config/v1/domain/"+DOMAIN_UUID+"/object/networks"
-# url = server +
-# try:
-obj = {"name": "1.191.183.0_24"}
-url += "?limit={}".format(1000)
-header = {"X-auth-access-token": auth_token}
-requests.packages.urllib3.disable_warnings()
-response = requests.get(url, headers=header, verify=False)
-json_resp = response.json()
-# print(json_resp)
-networkObjectList = json_resp['items']
-# objetFoundList = list(filter(lambda item: item['name'] == obj['name'], networkObjectList))
-# if objetFoundList:
-#     print(objetFoundList[0]['id'])
 
 
-#     status_code = response.status_code
-#
-# except Exception as err:
-#     print("Error in connection --> " + str(err))
+def get_objects_from_server(requestUrl):
+    requestUrl += "?limit={}".format(PAGINATION_LIMIT)
+    networkObjectList = []
+    while True:
+        header = {"X-auth-access-token": auth_token}
+        requests.packages.urllib3.disable_warnings()
+        response = requests.get(requestUrl, headers=header, verify=False)
+        json_resp = response.json()
+
+        items = json_resp['items']
+        networkObjectList += items
+        paging = json_resp['paging']
+        if 'next' in paging:
+            requestUrl = paging['next'][0]
+        else:
+            break
+    return networkObjectList
+
+
+url = SERVER + api_path_host
+networkObjectList = get_objects_from_server(url)
+url = SERVER + api_path_network
+networkObjectList += get_objects_from_server(url)
 
 ##############################
 listadecodigos = []
@@ -103,10 +97,10 @@ for obj in objects:
     }
 
     if obj["type"].lower().strip() == "host":
-        url = server + api_path_host
+        url = SERVER + api_path_host
     else:
         if obj["type"].lower().strip() == "network":
-            url = server + api_path_network
+            url = SERVER + api_path_network
         else:
             print(obj["type"] + "  Not valid in:  " + obj["name"])
             continue
@@ -121,8 +115,6 @@ for obj in objects:
         response = requests.post(url, data=json.dumps(post_data), headers=headers, verify=False)
         status_code = response.status_code
         resp = response.text
-        print("Error")
-        print(resp)
 
         log = open('api.log', 'a')
         print(" Status code: " + str(status_code))
@@ -153,7 +145,7 @@ for obj in objects:
             # listadecodigos.append(net_objects2["id"])
             # print(net_objects2['id'])
 
-            print(" Message: " + resp + '\n')
+            print("Message: " + resp + '\n')
         else:
             response.raise_for_status()
 
@@ -199,7 +191,7 @@ class payloadObj:
 
 nombre_grupo = input("Nombre del grupo: ")
 api_path_group = "/api/fmc_config/v1/domain/" + DOMAIN_UUID + "/object/networkgroups"
-urlgroup = server + api_path_group
+urlgroup = SERVER + api_path_group
 
 idsUrlArray = []
 for codigo in listadecodigos:
