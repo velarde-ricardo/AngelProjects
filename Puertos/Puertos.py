@@ -20,9 +20,10 @@ objects = csv.DictReader(csvfile)
 
 config_info = loadServerData()
 SERVER = config_info['server']
+NURL = SERVER + api_path_portobjects
 
 #### obtiene todos los objetos registrados en servidor
-objectsList = get_all_objects_from_server(requestUrl=api_path_portobjects, auth_token=auth_token, paginationLimit=1000)
+objectsList = get_all_objects_from_server(requestUrl=NURL, auth_token=auth_token, paginationLimit=1000)
 
 listadecodigos = []
 
@@ -57,7 +58,7 @@ for obj in objects:
             print(codigo["id"])
         elif status_code == 400:
             ### si el objeto ya estaba registrado, busca su Id y lo agrega a la lista para anadirlo despues al grupo
-            objectFoundList = list(filter(lambda item: item['name'] == obj['name'], objectsList))
+            objectFoundList = list(filter(lambda item: item['name'].lower() == obj['name'].lower(), objectsList))
             if objectFoundList:
                 listadecodigos.append(objectFoundList[0]['id'])
                 print(objectFoundList[0]['id'])
