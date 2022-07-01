@@ -2,14 +2,10 @@ import csv
 import json
 import sys
 from json import JSONEncoder
-# from fireREST import FMC
 
 import requests
 import os
 
-# fmc = FMC(hostname='10.156.2.135', username='apis', password='0v3rcl0ck3r5FMC@', domain='Global')
-# print(json.loads(fmc.conn.cred))
-# fmc = FMC(hostname='10.156.2.135',)
 config_info = ""
 with open('config_info.json', 'r') as f:
     config_info = json.load(f)
@@ -134,16 +130,6 @@ for obj in objects:
             if objectFoundList:
                 listadecodigos.append(objectFoundList[0]['id'])
                 print(objectFoundList[0]['id'])
-
-            # fmc = FMC(hostname='10.156.2.135', username='apis', password='0v3rcl0ck3r5FMC@', domain='Global')
-            # if obj["type"].lower().strip() == "host":
-            #     net_objects2 = fmc.object.host.get(name=obj["name"])
-            # else:
-            #     if obj["type"].lower().strip() == "network":
-            #         net_objects2 = fmc.object.network.get(name=obj["name"])
-
-            # listadecodigos.append(net_objects2["id"])
-            # print(net_objects2['id'])
 
             print("Message: " + resp + '\n')
         else:
