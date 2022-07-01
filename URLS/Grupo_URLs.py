@@ -7,28 +7,21 @@ import json
 from json import JSONEncoder
 from requests.auth import HTTPBasicAuth
 from urllib3.exceptions import InsecureRequestWarning
+
+
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
-
-print("======================================")
-print("=      Overclockers Mexico           =")
-print("=      hermes.campos                 =")
-print("=      Bulk add url to URL Group     =")
-print("======================================")
-
-address = "10.156.2.135"
-username = "apis"
-password = "0v3rcl0ck3r5FMC@"
-
-api_uri = "/api/fmc_platform/v1/auth/generatetoken"
-url = "https://" + address + api_uri
-
-response = requests.request("POST", url, verify=False, auth=HTTPBasicAuth(username, password))
+from utils.fmc_platform_utils import *
 
 
-accesstoken = response.headers["X-auth-access-token"]
-refreshtoken = response.headers["X-auth-refresh-token"]
-print(refreshtoken)
-DOMAIN_UUID = response.headers["DOMAIN_UUID"]
+data = getAuthToken()
+auth_token = data['AUTH_TOKEN']
+DOMAIN_UUID = data['DOMAIN_UUID']
+
+headers = {'Content-Type': 'application/json', 'X-auth-access-token': auth_token}
+print('...Connected! Auth token collected successfully (' + auth_token + ')\n')
+
+config_info = loadServerData()
+SERVER = config_info['server']
 
 ##########################################################################################
 
@@ -79,7 +72,13 @@ payload2 = MyEncoder().encode(payload3)
 
 print(payload2)
 host_api_uri2 = "/api/fmc_config/v1/domain/" + DOMAIN_UUID + "/object/urlgroups?bulk=true"
-host_url2 = "https://" + address + host_api_uri2
-headers = {'Content-Type': 'application/json', 'x-auth-access-token': accesstoken}
+host_url2 = SERVER + host_api_uri2
+headers = {'Content-Type': 'application/json', 'x-auth-access-token': auth_token}
 response21 = requests.request("POST", host_url2, headers=headers, data=payload2, verify=False)
+json_response = response21.json()
+status_code = response21.status_code
+if status_code == 200 or status_code == 201:
+    file1 = open('2ids.csv', 'w')
+    file1.truncate(0)
+    file1.close()
 print(response21)
